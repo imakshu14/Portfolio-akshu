@@ -1,0 +1,141 @@
+@font-face {
+    font-family: dancingScripts;
+    src: url(./fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: josefins;
+    src: url(./fonts/JosefinSans-VariableFont_wght.ttf);
+}
+/* *{
+    margin:0px;
+    padding:0px;
+} */
+body{
+    background-size: cover;
+}
+.icon h2{
+    margin-top: 10px;
+    height:23px;
+}
+#navbar {
+    background-color: rgba(37,41,28,.8);
+    
+    position: fixed; /* Make it stick/fixed */
+    top: -60px; /* Hide the navbar 50 px outside of the top view */
+    width: 75%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+/* .navbar{
+    width:100% ;
+    height:fit-content;
+    margin-left: 50%;
+    background-color: rgba(37,41,28,.8);
+    overflow: hidden;
+    
+    position: fixed;  //Make it stick/fixed 
+    top: -50px;  //Hide the navbar 50 px outside of the top view
+    width: 100%;  //Full width 
+    transition: top 0.3s; // Transition effect when sliding down (and up) 
+} */
+.icon{
+    width:200px ;
+    float: left;
+    height: 50px;
+}
+.logo{  
+    color: #E6E49F;
+    font-size: 200%;
+    font-family:dancingScripts;
+    padding-left: 3px;
+    float:left;
+}
+.menu ul{
+    float:right ;
+    display:flex ;
+}
+.menu ul li{
+    list-style:none ;
+    margin-left: 65px;
+    margin-top: 5%;
+    font-size: 14px;
+}
+.menu ul li a{
+    text-decoration:none ;
+    color: #E6E49F;
+    font-family:josefins;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+.menu ul li a:hover{
+    color:#989C94;
+}
+.divhome{
+    margin-top: 15%;
+    margin-left: 50%;
+}
+.h111{
+    background-color: rgba(124, 50, 56, 0.2);
+    font-family: josefins;
+    color: #7C3238;
+    font-size: 100px;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    border-radius: 2%;
+}
+.h111 h1{
+    font-size: 2cm;
+    
+}
+.h222{
+    background-color: rgba(124, 50, 56, 0.2);
+    font-family: josefins;
+    color: #7C3238;
+    padding-left: .5%;
+}
+.ppp{
+    padding: 1%;
+    padding-bottom: 0.1%;
+    background-color: rgba(137 , 203, 177, .1);
+    font-family: josefins;
+    color:rgb(137 , 203, 177);
+    letter-spacing:  1.5px;
+    border-radius: 2%;
+}
+.divhei{
+    margin-top: 20%;
+}
+.divhei2{
+    margin-top: 10%;
+}
+.resss{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+
+
+footer {
+    bottom: 0px;
+    width: 100%;
+    background-color: #101500;
+}
+
+.main-content {
+    display: flex;
+    font-family: josefins;
+    padding: 2% 3%;
+}
+
+
+.left-box {
+    margin-left: 10%;
+}
+
+
+.box {
+    margin: 0 0 0 20%;
+}
+
